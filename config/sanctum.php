@@ -80,4 +80,15 @@ return [
         'validate_csrf_token' => Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class,
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Sanctum Path Prefix
+    |--------------------------------------------------------------------------
+    |
+    | When requesting csrf-cookie, sanctum/csrf-cookie route is used. You 
+    | may change the default path prefix from sanctum to your liking
+    |
+    */
+
+    'prefix' => 'api',
 ];
